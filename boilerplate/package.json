@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "review": "cross-env PATH=3000 DEV_UTILS=somekey umi build && cd dist && serve",
+    "start": "umi dev",
+    "build": "umi build"
   },
   "keywords": [],
   "author": "",

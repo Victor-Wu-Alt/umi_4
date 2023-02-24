@@ -1,0 +1,7 @@
+# 忽略提交的文件
+
+**/node_modules
+
+# umi
+.umi
+.umi-production
